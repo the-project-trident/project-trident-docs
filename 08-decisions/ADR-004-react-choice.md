@@ -2,7 +2,13 @@
 
 # Status
 
-Accepted
+**Superseded** by [ADR-005 — Angular Frontend Architecture Choice](ADR-005-angular-frontend-choice.md) (2026-05-17)
+
+---
+
+# Historical status
+
+Accepted (2026-05-17, until superseded)
 
 ---
 

@@ -346,13 +346,17 @@ The MVP should prioritize:
 - and rapid iteration.
 
 Examples:
-- modular monolith architecture
+- modular monolith architecture (backend)
+- **Angular** SPA (or SSR where needed) with **Angular Material**
 - managed infrastructure
 - simpler operational tooling
 
+Frontend decisions: [ADR-005](../08-decisions/ADR-005-angular-frontend-choice.md), [Design System](../04-ui-ux/07-design-system.md).
+
 The platform should avoid:
 - premature microservices,
-- and infrastructure over-engineering.
+- infrastructure over-engineering,
+- and un-themed default Material / marketplace UI patterns.
 
 ---
 
@@ -370,6 +374,8 @@ The platform should avoid:
 - and manipulative UX behavior.
 
 **V1 navbar and footer:** defined in [Navigation Flow — V1 Global Header](../04-ui-ux/02-navigation-flow.md#v1-global-header-navbar).
+
+**V1 UI implementation:** Angular Material per [Design System](../04-ui-ux/07-design-system.md).
 
 ---
 

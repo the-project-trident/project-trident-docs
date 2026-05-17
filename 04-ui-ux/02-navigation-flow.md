@@ -18,6 +18,8 @@ The navigation system is intended to support:
 
 This document defines the intended navigation philosophy and user movement structure across the platform.
 
+**Implementation:** Angular + Angular Material ([ADR-005](../08-decisions/ADR-005-angular-frontend-choice.md), [Design System](07-design-system.md)).
+
 ---
 
 # Core Navigation Philosophy

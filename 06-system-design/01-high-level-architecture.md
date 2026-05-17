@@ -120,6 +120,22 @@ The interface should avoid:
 
 ---
 
+## Technology Stack (V1)
+
+| Layer | Choice |
+|-------|--------|
+| Framework | Angular (LTS) + TypeScript |
+| UI | Angular Material + CDK |
+| Theming | Custom Material 3 theme per [Design System](../04-ui-ux/07-design-system.md) |
+| Routing | Angular Router (public + reviewer feature areas) |
+| Rendering | Client-first MVP; SSR optional for education/trust SEO |
+
+Decision record: [ADR-005 — Angular Frontend](../08-decisions/ADR-005-angular-frontend-choice.md).
+
+Supersedes [ADR-004 — React](../08-decisions/ADR-004-react-choice.md).
+
+---
+
 # 2. API Layer
 
 ## Purpose

@@ -127,6 +127,8 @@ This repository contains:
 - product thinking,
 - and long-term platform vision.
 
+**Frontend stack (V1):** Angular, TypeScript, Angular Material — see [ADR-005](08-decisions/ADR-005-angular-frontend-choice.md) and [Design System](04-ui-ux/07-design-system.md).
+
 ---
 
 # Repository Structure
@@ -165,7 +167,8 @@ project-trident/
 │   ├── 03-home-wireframe.md
 │   ├── 04-product-page-wireframe.md
 │   ├── 05-comparison-page-wireframe.md
-│   └── 06-reviewer-dashboard-wireframe.md
+│   ├── 06-reviewer-dashboard-wireframe.md
+│   └── 07-design-system.md             ← Angular Material theme & patterns
 │
 ├── 05-methodology/
 │   ├── 01-scoring-system.md
@@ -196,7 +199,8 @@ project-trident/
 │   ├── ADR-001-tech-first-approach.md
 │   ├── ADR-002-no-paid-rankings.md
 │   ├── ADR-003-platform-verification.md
-│   └── ADR-004-react-choice.md
+│   ├── ADR-004-react-choice.md         (superseded)
+│   └── ADR-005-angular-frontend-choice.md
 │
 ├── 10-notes/
 │   ├── 01-brainstorming.md
