@@ -127,7 +127,11 @@ This repository contains:
 - product thinking,
 - and long-term platform vision.
 
-**Frontend stack (V1):** Angular, TypeScript, Angular Material — see [ADR-005](08-decisions/ADR-005-angular-frontend-choice.md) and [Design System](04-ui-ux/07-design-system.md).
+**Frontend stack (V1):** **Angular 17** + **Angular Material 17** + TypeScript — see [ADR-005](08-decisions/ADR-005-angular-frontend-choice.md), [Design System](04-ui-ux/07-design-system.md), [Implementation Plan](04-ui-ux/08-frontend-implementation-plan.md).
+
+**Tech stack (versions):** [00-meta/02-tech-stack.md](00-meta/02-tech-stack.md) — Angular 17, Material 17, NestJS/PostgreSQL planned for API.
+
+**Documentation:** living context — may be updated as we build ([meta](00-meta/01-living-documentation.md)).
 
 ---
 
@@ -137,6 +141,10 @@ Files use numeric prefixes for reading order within each folder.
 
 ```txt
 project-trident/
+│
+├── 00-meta/
+│   ├── 01-living-documentation.md
+│   └── 02-tech-stack.md              ← versions (Angular 17, API, DB, infra)
 │
 ├── 01-vision/
 │   ├── 01-problem-statement.md
@@ -168,7 +176,8 @@ project-trident/
 │   ├── 04-product-page-wireframe.md
 │   ├── 05-comparison-page-wireframe.md
 │   ├── 06-reviewer-dashboard-wireframe.md
-│   └── 07-design-system.md             ← Angular Material theme & patterns
+│   ├── 07-design-system.md             ← Angular Material theme & patterns
+│   └── 08-frontend-implementation-plan.md  ← routes, build order, NG17
 │
 ├── 05-methodology/
 │   ├── 01-scoring-system.md

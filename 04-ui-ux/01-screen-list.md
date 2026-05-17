@@ -335,7 +335,7 @@ Vendor authority should remain operational rather than trust-controlling.
 
 Canonical navbar and footer specification: **[Navigation Flow — V1 Global Header](02-navigation-flow.md#v1-global-header-navbar)**.
 
-UI stack and Material theming: **[Design System — Angular Material](07-design-system.md)** ([ADR-005](../08-decisions/ADR-005-angular-frontend-choice.md)).
+UI stack: **Angular 17 + Material 17** — [Design System](07-design-system.md), [Implementation Plan](08-frontend-implementation-plan.md), [ADR-005](../08-decisions/ADR-005-angular-frontend-choice.md).
 
 ## Top navbar (Phase 1)
 
