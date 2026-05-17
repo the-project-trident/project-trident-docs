@@ -65,6 +65,19 @@ The objective is:
 
 ---
 
+# Global Header (Navbar)
+
+Every public page shares the V1 header defined in **[Navigation Flow — V1 Global Header](02-navigation-flow.md#v1-global-header-navbar)**.
+
+```txt
+[Logo]  Explore Technologies | Discover Products | Compare | How We Review | Transparency   [Search]
+```
+
+- The homepage **hero** may repeat key CTAs (e.g. Explore Technologies, Learn How We Review) but must not replace or contradict the global navbar.
+- Trust links in page body (methodology, rankings, ethics) should align with **How We Review** and **Transparency** nav destinations.
+
+---
+
 # High-Level Homepage Structure
 
 The homepage is organized into the following major sections:
@@ -375,13 +388,17 @@ Provide:
 
 ---
 
-## Example Areas
+## Footer Links (V1)
 
-- About Project Trident
-- Methodology
-- Technology Education
-- Contact
-- Transparency Policies
+Aligned with [Navigation Flow — Footer Navigation](02-navigation-flow.md#footer-navigation-v1):
+
+| Link | Route |
+|------|-------|
+| About Project Trident | `/about` |
+| Methodology | `/methodology` |
+| Technology Education | `/technologies` |
+| Transparency Policies | `/transparency` |
+| Contact | `/contact` |
 
 ---
 

@@ -331,6 +331,32 @@ Vendor authority should remain operational rather than trust-controlling.
 
 ---
 
+# Global Navigation (V1)
+
+Canonical navbar and footer specification: **[Navigation Flow — V1 Global Header](02-navigation-flow.md#v1-global-header-navbar)**.
+
+## Top navbar (Phase 1)
+
+| Label | Maps to screen(s) |
+|-------|-------------------|
+| Logo → Home | Home |
+| Explore Technologies | Technology Detail, Technology Comparison, Decision Framework (via flows) |
+| Discover Products | Category Discovery, Product Detail |
+| Compare | Technology Comparison, Product Comparison |
+| How We Review | Review Methodology |
+| Transparency | Trust & Ethics, How Rankings Work |
+| Search (utility) | Discovery / search (no dedicated results screen in V1 screen list) |
+
+## Footer (Phase 1)
+
+About, Methodology, Technology Education, Transparency Policies, Contact — see navigation doc for routes.
+
+## Not in public nav
+
+Reviewer Dashboard, Product Evaluation Workspace, Internal Product Queue, vendor screens (15–16).
+
+---
+
 # Navigation Philosophy
 
 Navigation should prioritize:
@@ -338,7 +364,7 @@ Navigation should prioritize:
 - clarity,
 - and educational flow.
 
-Primary navigation should remain minimal.
+Primary navigation should remain minimal — see **Global Navigation (V1)** above.
 
 The platform should avoid:
 - overwhelming category complexity,

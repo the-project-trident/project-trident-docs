@@ -131,18 +131,77 @@ This repository contains:
 
 # Repository Structure
 
+Files use numeric prefixes for reading order within each folder.
+
 ```txt
-Project-trident/
+project-trident/
 │
-├── 01-foundation/
+├── 01-vision/
+│   ├── 01-problem-statement.md
+│   ├── 02-product-vision.md
+│   ├── 03-philosophy.md
+│   ├── 04-trust-principles.md
+│   ├── 05-differentiation.md
+│   └── 06-long-term-vision.md
+│
 ├── 02-research/
-├── 03-product/
-├── 04-ux/
+│   ├── 01-marketplace-problems.md
+│   ├── 02-competitor-analysis.md
+│   ├── 03-buyer-regret-cases.md
+│   ├── 04-technology-evolution.md
+│   └── 05-controller-market-study.md
+│
+├── 03-product-design/
+│   ├── 01-homepage-strategy.md
+│   ├── 02-discovery-flow.md
+│   ├── 03-trust-architecture.md
+│   ├── 04-product-lifecycle.md
+│   ├── 05-review-lifecycle.md
+│   └── 06-vendor-system.md
+│
+├── 04-ui-ux/
+│   ├── 01-screen-list.md
+│   ├── 02-navigation-flow.md      ← V1 navbar (canonical)
+│   ├── 03-home-wireframe.md
+│   ├── 04-product-page-wireframe.md
+│   ├── 05-comparison-page-wireframe.md
+│   └── 06-reviewer-dashboard-wireframe.md
+│
 ├── 05-methodology/
+│   ├── 01-scoring-system.md
+│   ├── 02-testing-methodology.md
+│   ├── 02-verification-process.md
+│   ├── 04-reviewer-guidelines.md
+│   ├── 05-ethics-policy.md
+│   └── 06-conflict-of-interest.md
+│
 ├── 06-system-design/
+│   ├── 01-high-level-architecture.md
+│   ├── 02-microservices-design.md
+│   ├── 03-database-strategy.md
+│   ├── 04-search-system.md
+│   ├── 05-authentication-design.md
+│   ├── 06-observability.md
+│   ├── 07-deployment-strategy.md
+│   └── 08-scalability-plan.md
+│
 ├── 07-roadmap/
+│   ├── 01-phase-1-foundation.md
+│   ├── 02-mvp-scope.md
+│   ├── 03-phase-2-credibility.md
+│   ├── 04-phase-3-platform.md
+│   └── 05-future-expansion.md
+│
 ├── 08-decisions/
-├── 09-assets/
+│   ├── ADR-001-tech-first-approach.md
+│   ├── ADR-002-no-paid-rankings.md
+│   ├── ADR-003-platform-verification.md
+│   └── ADR-004-react-choice.md
+│
 ├── 10-notes/
+│   ├── 01-brainstorming.md
+│   ├── 02-future-ideas.md
+│   └── 03-raw-thoughts.md
 │
 └── README.md
+```

@@ -369,6 +369,8 @@ The platform should avoid:
 - addictive engagement systems,
 - and manipulative UX behavior.
 
+**V1 navbar and footer:** defined in [Navigation Flow — V1 Global Header](../04-ui-ux/02-navigation-flow.md#v1-global-header-navbar).
+
 ---
 
 # MVP Success Metrics

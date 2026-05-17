@@ -69,7 +69,125 @@ The platform navigation is divided into:
 
 ---
 
+# V1 Global Header (Navbar)
+
+This section defines the **Phase 1 / MVP top navigation bar**. It is the canonical reference for header layout, labels, routes, and what stays out of the navbar.
+
+The navbar should remain **minimal** — five primary areas plus utility chrome, not one link per screen.
+
+---
+
+## Layout
+
+```txt
+[Logo → Home]  Explore Technologies | Discover Products | Compare | How We Review | Transparency   [Search]
+```
+
+- **Logo** — always returns to Home.
+- **Search** — utility control on the right (icon or compact field); not a primary nav section.
+- **Transparency** — may use a small dropdown on desktop; on mobile, expand inside the menu.
+
+---
+
+## Primary Nav Items (V1)
+
+| Label | Nav area | Primary screens | Default route (V1) |
+|-------|----------|-----------------|-------------------|
+| *(Logo)* | Platform identity | Home | `/` |
+| **Explore Technologies** | Technology discovery | Technology Detail, Technology Comparison, Decision Framework (linked from flows) | `/technologies` |
+| **Discover Products** | Product discovery | Category Discovery, Product Detail | `/products/controllers` |
+| **Compare** | Comparison | Technology Comparison, Product Comparison | `/compare` |
+| **How We Review** | Trust & transparency | Review Methodology | `/methodology` |
+| **Transparency** | Trust & transparency | Trust & Ethics, How Rankings Work | `/transparency` |
+| **Search** | Discovery utility | *(results inline or dedicated route later)* | `/search` |
+
+### Transparency dropdown (recommended)
+
+When using a dropdown under **Transparency**:
+
+- Trust & Ethics → `/transparency/ethics`
+- How Rankings Work → `/transparency/rankings`
+
+A single **Transparency** landing page at `/transparency` that links to both is also acceptable for V1.
+
+---
+
+## Item Order & Rationale
+
+Nav items appear left-to-right in this order:
+
+1. **Explore Technologies** before **Discover Products** — technology-first discovery.
+2. **Compare** — trade-offs across technologies and products.
+3. **How We Review** and **Transparency** — trust and methodology remain structurally visible.
+
+---
+
+## Screens Not in the Top Navbar (V1)
+
+These remain reachable via **footer**, **in-page links**, or **parent flows** — not duplicated as top-level nav items:
+
+| Screen | Typical entry |
+|--------|----------------|
+| Decision Framework | Explore Technologies, homepage education sections |
+| About Project Trident | Footer |
+| Product Detail | Discover Products, search, comparisons |
+| Technology Detail | Explore Technologies, product pages |
+
+---
+
+## Footer Navigation (V1)
+
+The footer complements the navbar. Suggested groups:
+
+| Link | Route | Notes |
+|------|-------|-------|
+| About Project Trident | `/about` | Mission and vision |
+| Methodology | `/methodology` | Same destination as **How We Review** |
+| Technology Education | `/technologies` | Same hub as **Explore Technologies** |
+| Transparency Policies | `/transparency` | Ethics and rankings hub |
+| Contact | `/contact` | Placeholder acceptable in MVP |
+
+Footer may repeat trust links; the navbar must not hide methodology or transparency.
+
+---
+
+## Excluded from Public Navigation (V1)
+
+Not shown in the public header or footer for end users:
+
+- Reviewer Dashboard
+- Product Evaluation Workspace
+- Internal Product Queue
+- Vendor Submission
+- Vendor Product Management
+
+Reviewer and vendor surfaces use **separate authenticated routes** (e.g. `/reviewer`) when implemented.
+
+---
+
+## Navbar Anti-Patterns (V1)
+
+The header must **not** include:
+
+- Marketplace patterns (cart, deals, “best sellers”)
+- Category sprawl beyond the initial focus (controllers / input)
+- Vendor or monetization CTAs
+- Engagement bait (infinite feeds, urgency badges in nav)
+
+---
+
+## Search (V1)
+
+MVP includes search and discovery. Search is **header utility**, not a sixth primary nav label.
+
+- Prefer a persistent search control in the header.
+- Results may route to `/search` or filter within Category Discovery until a dedicated results screen is defined.
+
+---
+
 # Primary Navigation Areas
+
+The following sections describe user intent and destinations for each navbar area.
 
 ---
 
@@ -112,10 +230,12 @@ Discovery should remain:
 
 ---
 
-# 3. Compare Technologies
+# 3. Compare
+
+**Navbar label:** Compare
 
 ## Purpose
-Structured trade-off understanding.
+Structured trade-off understanding across **technologies and products**.
 
 ## User Intent
 Users want to:
