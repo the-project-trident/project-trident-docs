@@ -37,8 +37,8 @@ Canonical navigation: [Navigation Flow — V1 Global Header](02-navigation-flow.
 
 | Piece | Choice |
 |-------|--------|
-| Framework | Angular (LTS) |
-| UI library | Angular Material + CDK |
+| Framework | **Angular 17.x** |
+| UI library | **Angular Material 17.x** + CDK |
 | Language | TypeScript |
 | Theming | Material 3 custom theme (`@angular/material`) |
 | Icons | Material Symbols or consistent SVG set |

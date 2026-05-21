@@ -39,15 +39,21 @@ The public experience must remain **calm, editorial, and trust-first** — not m
 
 Project Trident will adopt:
 
-- **Angular** (current LTS) with **TypeScript**
-- **Angular Material** and **Angular CDK** for UI components
+- **Angular 17.x** with **TypeScript 5.2+**
+- **Angular Material 17.x** and **Angular CDK 17.x** (versions aligned with Angular major)
 - **Angular Router** for public and internal route shells
-- **Standalone components** as the default component model
+- **Standalone components** as the default component model (Angular 17 CLI default)
+- **New control flow** (`@if`, `@for`, `@switch`) in new templates where appropriate
 
 Optional as needed for MVP and beyond:
 
-- **Angular SSR** (or hybrid rendering) for SEO on education and trust pages
+- **Angular SSR** (`@angular/ssr`) for SEO on education and trust pages
 - **RxJS** for async flows (used idiomatically with Angular services)
+- **Signals** for local UI state where they simplify components
+
+Implementation details: [Frontend Implementation Plan](../04-ui-ux/08-frontend-implementation-plan.md).
+
+Full stack versions: [Tech Stack](../00-meta/02-tech-stack.md).
 
 The architecture will prioritize:
 
