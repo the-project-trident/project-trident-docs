@@ -124,8 +124,8 @@ The interface should avoid:
 
 | Layer | Choice |
 |-------|--------|
-| Framework | Angular (LTS) + TypeScript |
-| UI | Angular Material + CDK |
+| Framework | Angular **17.x** + TypeScript **5.2+** |
+| UI | Angular Material **17.x** + CDK |
 | Theming | Custom Material 3 theme per [Design System](../04-ui-ux/07-design-system.md) |
 | Routing | Angular Router (public + reviewer feature areas) |
 | Rendering | Client-first MVP; SSR optional for education/trust SEO |

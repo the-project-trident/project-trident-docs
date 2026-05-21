@@ -347,11 +347,11 @@ The MVP should prioritize:
 
 Examples:
 - modular monolith architecture (backend)
-- **Angular** SPA (or SSR where needed) with **Angular Material**
+- **Angular 17** SPA (or SSR where needed) with **Angular Material 17**
 - managed infrastructure
 - simpler operational tooling
 
-Frontend decisions: [ADR-005](../08-decisions/ADR-005-angular-frontend-choice.md), [Design System](../04-ui-ux/07-design-system.md).
+Frontend decisions: [ADR-005](../08-decisions/ADR-005-angular-frontend-choice.md), [Design System](../04-ui-ux/07-design-system.md), [Implementation Plan](../04-ui-ux/08-frontend-implementation-plan.md).
 
 The platform should avoid:
 - premature microservices,
