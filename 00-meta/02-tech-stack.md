@@ -1,81 +1,55 @@
 # Project Trident
-## Frontend
 
-- Angular 17
-    
-- TypeScript 5
-    
-- Angular Material
-    
-- Angular CDK
-    
-- SCSS
-    
-- RxJS
-    
-- NGINX
-    
+## Frontend Layer
+
+* Angular 17
+* TypeScript 5
+* Angular Material
+* Angular CDK
+* SCSS
+* RxJS
+* NGINX
 
 ---
 
-# Backend
+# Backend Platform
 
-- Java 21 LTS
-    
-- Spring Boot 3
-    
-- Spring WebFlux
-    
-- Project Reactor
-    
-- Spring Cloud
-    
-- Spring Cloud Gateway
-    
-- Spring Security
-    
-- JWT Authentication
-    
-- Maven
-    
+* Java 21 LTS
+* Spring Boot 3
+* Spring WebFlux
+* Project Reactor
+* Spring Cloud
+* Spring Cloud Gateway
+* Spring Security
+* JWT Authentication
+* Maven
 
 ---
 
-# Microservices
+# Core Microservices
 
-- API Gateway Service
-    
-- Auth Service
-    
-- Product Service
-    
-- Verification Service
-    
-- Review & Feedback Service
-    
-- Search Service
-    
-- Recommendation Service
-    
+* API Gateway Service
+* Authentication Service
+* Product Service
+* Verification Service
+* Review & Feedback Service
+* Search Service
+* Recommendation Service
 
 ---
 
-# Databases
+# Data Layer
 
 ## MySQL
 
 Used for:
 
-- users
-    
-- auth
-    
-- products
-    
-- vendors
-    
-- transactional/core relational data
-    
+* User management
+* Authentication data
+* Product catalog
+* Vendor management
+* Core transactional data
+* Relational business workflows
 
 ---
 
@@ -83,16 +57,12 @@ Used for:
 
 Used for:
 
-- reviews
-    
-- verification evidence
-    
-- recommendation metadata
-    
-- audit history
-    
-- flexible documents/content
-    
+* Reviews & feedback
+* Verification evidence
+* Recommendation metadata
+* Audit history
+* Flexible document storage
+* AI-generated content metadata
 
 ---
 
@@ -100,18 +70,13 @@ Used for:
 
 Used for:
 
-- full-text search
-    
-- autocomplete
-    
-- fuzzy search
-    
-- filtering
-    
-- ranking
-    
-- technology-aware discovery
-    
+* Full-text search
+* Semantic-ready discovery
+* Autocomplete
+* Fuzzy matching
+* Dynamic filtering
+* Intelligent ranking
+* Technology-aware search experience
 
 ---
 
@@ -119,134 +84,177 @@ Used for:
 
 Used for:
 
-- caching
-    
-- token blacklist
-    
-- rate limiting
-    
-- hot recommendation cache
-    
+* Distributed caching
+* Token blacklist management
+* API rate limiting
+* Session optimization
+* Hot recommendation cache
 
 ---
 
-# Messaging & Streaming
+# Messaging & Event Streaming
 
-- Apache Kafka
-    
-- Zookeeper
-    
+* Apache Kafka
+* Zookeeper
+* Event-Driven Communication
+* Asynchronous Processing Pipelines
+
+---
+
+# AI / GenAI Stack
+
+## AI Engineering & GenAI
+
+* Generative AI (GenAI)
+* AI Engineering
+* Retrieval-Augmented Generation (RAG)
+* Semantic Search
+* Embedding-Based Retrieval
+* AI-Assisted Recommendation Reasoning
+* Explainable AI Recommendations
+
+---
+
+## AI Frameworks & Integration
+
+* Spring AI
+* LangChain4j
+* OpenAI API
+* Ollama (Local LLM Runtime)
+
+---
+
+## AI Vector Data Layer
+
+### pgvector (PostgreSQL Extension)
+
+or
+
+### Qdrant
+
+Used for:
+
+* Vector embeddings
+* Semantic retrieval
+* Context-aware AI search
+* Recommendation context storage
+* Similarity search pipelines
+
+---
+
+# AI-Powered Features
+
+* AI-powered technology discovery
+* Semantic product search
+* Intelligent product comparison
+* AI-assisted recommendation reasoning
+* Technology explanation generation
+* AI verification summaries
+* Context-aware recommendation assistance
+* Future-ready AI search workflows
+
+---
+
+# AI Microservices
+
+* AI Recommendation Service
+* RAG Service
+* Embedding Service
+
+---
+
+# Security Layer
+
+* Spring Security Reactive
+* JWT Authentication
+* RBAC (Role-Based Access Control)
+* API Gateway Security Policies
+* Token-based Authorization
+
+---
+
+# Resilience & Reliability
+
+## Resilience4j
+
+* Circuit Breaker
+* Retry
+* Bulkhead
+* Rate Limiter
+* Fault Tolerance Patterns
 
 ---
 
 # Monitoring & Observability
 
-- Prometheus
-    
-- Grafana
-    
-- Micrometer
-    
-- Spring Boot Actuator
-    
+* Prometheus
+* Grafana
+* Micrometer
+* Spring Boot Actuator
+
+## AI Observability
+
+* Langfuse
+* Prompt Logging
+* AI Trace Monitoring
+* LLM Request Tracking
 
 ---
 
-# Logging Stack
+# Logging & Analytics
 
-- OpenSearch Dashboards
-    
-- Logstash (later)
-    
-- Structured JSON Logging
-    
-
----
-
-# Resilience
-
-- Resilience4j
-    
-    - Circuit Breaker
-        
-    - Retry
-        
-    - Bulkhead
-        
-    - Rate Limiter
-        
+* Structured JSON Logging
+* OpenSearch Dashboards
+* Centralized Log Aggregation
+* Logstash (Planned)
 
 ---
 
 # API Documentation
 
-- OpenAPI / Swagger
-    
-- SpringDoc OpenAPI
-    
-
----
-
-# Security
-
-- Spring Security Reactive
-    
-- JWT
-    
-- RBAC
-    
+* OpenAPI / Swagger
+* SpringDoc OpenAPI
 
 ---
 
 # DevOps & Infrastructure
 
-- Docker
-    
-- Docker Compose
-    
-- Multi-stage Dockerfiles
-    
-- GitHub Actions
-    
+* Docker
+* Docker Compose
+* Multi-stage Dockerfiles
+* GitHub Actions
+* Containerized Development Environment
 
 ---
 
-# Testing
+# Testing Stack
 
-- JUnit 5
-    
-- Mockito
-    
-- Testcontainers
-    
-- WireMock
-    
+* JUnit 5
+* Mockito
+* Testcontainers
+* WireMock
+* Integration & Contract Testing
 
 ---
 
 # Developer Tooling
 
-- Lombok
-    
-- MapStruct
-    
-- VS Code / Cursor
-    
+* Lombok
+* MapStruct
+* VS Code
+* Cursor IDE
 
 ---
 
-# Architecture Style
+# Architecture Principles
 
-- Reactive Microservices
-    
-- Event-Driven Architecture
-    
-- Polyglot Persistence
-    
-- API Gateway Pattern
-    
-- Search Projection Architecture
-    
+* Reactive Microservices Architecture
+* Event-Driven Architecture
+* Polyglot Persistence
+* API Gateway Pattern
+* Search Projection Architecture
+* AI-Enhanced Discovery Architecture
+* Scalable Distributed System Design
 
 ---
 
@@ -263,9 +271,15 @@ review-service
 search-service
 recommendation-service
 
+ai-recommendation-service
+rag-service
+embedding-service
+
 mysql
 mongodb
 redis
+
+postgres-pgvector
 
 kafka
 zookeeper
@@ -273,31 +287,35 @@ zookeeper
 opensearch
 opensearch-dashboards
 
+ollama
+
 prometheus
 grafana
+langfuse
 ```
 
 ---
 
-# Final System Flow
+# High-Level System Flow
 
 ```text
 Angular Frontend
         ↓
-NGINX
+NGINX Reverse Proxy
         ↓
 API Gateway
         ↓
-------------------------------------------------
-| Auth | Product | Verification | Review |
-| Search | Recommendation |
-------------------------------------------------
+----------------------------------------------------------------
+| Auth | Product | Verification | Review | Search | Recommendation |
+----------------------------------------------------------------
         ↓
 MySQL + MongoDB + Redis
         ↓
-Kafka Event Streaming
+Kafka Event Streaming Layer
         ↓
-OpenSearch Search Layer
+OpenSearch + Vector Search Layer
         ↓
-Monitoring & Dashboards
+AI Services (RAG + Embeddings + Recommendations)
+        ↓
+Monitoring, Logging & Observability Stack
 ```
